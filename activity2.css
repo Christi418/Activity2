@@ -1,0 +1,110 @@
+/* This modifies how the font is displayed */
+
+body
+{
+    background-color: #993300; /*cream*/
+}
+
+
+.bold
+{
+    font-weight:bold
+}
+
+/* This modifies how the font is displayed */
+
+.italics
+{
+    font-style:italic
+}
+
+/* This modifies how h1 elements are displayed */
+
+h1
+{
+    font-variant:small-caps;
+    color:purple;
+    text-align:right;
+}
+
+h2
+{
+    font-variant: small-caps;
+    color:green;
+}
+/* This affects from the div to /div */
+
+div
+{
+    border-color: #33cc00;
+    border:dashed;
+    border-radius: 20px;
+    background-color: #eee;
+    width: 775px;
+    margin: 20px;
+    padding: 15px;
+}
+
+/* This affects how paragraphs <p> are displayed */
+
+p
+{
+    font-family: "Arial",sans-serif
+}
+
+/* Affects how images are displayed*/
+
+img
+{
+    border: 0px;
+    padding: 15px;
+}
+
+/* Affects how text is displayed in a quote  */
+
+blockquote
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Calibri", sans-serif
+}
+
+/* Affects how is   displayed*/
+
+a
+{
+    font-family: "Arial", sans-serif;
+    text-color: #8B0000;
+    text-decoration: none;
+}
+
+/* Affects how links are displayed*/
+
+a:link
+{
+    font-weight: bold;
+}
+
+/* affects what happens when you hover over a link*/
+
+a:hover
+{
+    background-color: #8B0000;
+    text-color: #eee;
+}
+
+
+/* if I had anthing else I can put it here */
+
+.other
+{
+
+}
+
+/* affects sub-headings h2-h5 */
+
+h2
+{
+    font-variant: small-caps;
+    font-color: green;
+}
